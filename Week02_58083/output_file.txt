@@ -1,0 +1,2 @@
+Hey from GBCe appended to the existing content in input_file
+This will be appended to the existing content in input_file
