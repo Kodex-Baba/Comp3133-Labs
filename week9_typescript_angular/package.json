@@ -1,0 +1,13 @@
+{
+  "name": "week9_typescript_angular",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akorede Daniel Osunkoya",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
