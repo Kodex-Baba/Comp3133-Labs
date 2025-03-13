@@ -1,0 +1,51 @@
+<h1>Akorede Daniel Osunkoya</h1>
+
+<h1>{{ userName }}</h1>
+
+<!-- Interpolation -->
+<h1>Hello. {{title}}</h1>
+<h2>{{message}}</h2>
+
+<button (click)="buttonClick()">Hello Button</button>
+
+<br>
+
+<img src="{{someImage}}" alt="Invincible" height="200px"/>
+
+<h2>Date Pipes Example</h2>
+<h3>today: {{now}}</h3>
+
+<h3>"ABCD" | lowercase = {{ "ABCD" | lowercase}}</h3>
+
+<h1>Date Pipe Examples</h1>
+<h2>today : {{ today }}</h2>
+
+<h3>"ABCD" | lowercase = {{ "ABCD" | lowercase }}</h3>
+<h3>date = {{ today | date }}</h3>
+<h3>date:'long' = {{ today | date:'long' }}</h3>
+<h3>date:'medium' = {{ today | date:'medium' }}</h3>
+<h3>date:'short' = {{ today | date:'short' }}</h3>
+<h3>date:'dd-MM-yyyy' = {{ today | date:'dd-MM-yyyy' }}</h3>
+
+<h1>Currency Pipe Examples</h1>
+<h3>currency = {{ 1223456 | currency }}</h3>
+<h3>currency:'AER' = {{ 123456 | currency:'AER' }}</h3>
+<h3>currency:'EUR' = {{ 123456 | currency:'EUR' }}</h3>
+<h3>currency:'INR' = {{ 123456 | currency:'INR' }}</h3>
+<h3>currency:'GBP' = {{ 123456 | currency:'GBP' }}</h3>
+<h3>currency with no symbol = {{ 123456 | currency:'USD':'symbol-narrow' }}</h3>
+<h3>currency with code = {{ 123456 | currency:'USD':'code' }}</h3>
+<h3>currency with custom digits = {{ 123456.789 | currency:'USD':'symbol':'4.2-2' }}</h3>
+
+<h1>Number Pipe Examples</h1>
+<h3>number (default) = {{ 123456 | number }}</h3>
+<h3>number with 2 decimals = {{ 123456.789 | number:'1.2-2' }}</h3>
+<h3>number with min 3 integer digits = {{ 4 | number:'3.0-0' }}</h3>
+<h3>number formatted as percentage = {{ 0.875 | percent }}</h3>
+<h3>number with custom digit grouping = {{ 123456.789 | number:'1.3-3' }}</h3>
+
+<app-student [student]="stud"></app-student>
+
+<app-student></app-student>
+
+
